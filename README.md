@@ -9,6 +9,7 @@ App to help you to get what you already know in french and bring it to your mout
 
 - iOS 11.0+
 - Xcode 9.0+
+- Ruby 2.4.1
 - Swift 4.0
 
 ## Installation
