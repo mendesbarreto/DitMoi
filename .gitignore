@@ -6,7 +6,7 @@
 Carthage/Checkouts/
 DerivedData/
 
-DitMoi/DitMoi.xcodeproj/project.xcworkspace/xcuserdata/
+DitMoi.xcodeproj/project.xcworkspace/xcuserdata/
 
 *.DS_Store
 .vscode/
