@@ -9,7 +9,7 @@
 import XCTest
 @testable import DitMoi
 
-class DitMoiTests: XCTestCase {
+class ViewControllerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
