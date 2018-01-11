@@ -5,6 +5,7 @@
 ## Build generated
 Carthage/Checkouts/
 DerivedData/
+tests.text
 
 DitMoi.xcodeproj/project.xcworkspace/xcuserdata/
 
