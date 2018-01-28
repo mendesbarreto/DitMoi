@@ -12,6 +12,15 @@
 default_platform(:ios)
 
 platform :ios do
+
+  desc "Subcribe devices on provision profile"
+  lane :register_project_devices do
+    register_devices(devices_file: "./fastlane//Devices.txt")
+    match(type: "adhoc", force_for_new_devices: true)
+    match(type: "development", force_for_new_devices: true)
+    match(type: "appstore", force_for_new_devices: true)
+  end
+
   desc "Push a new beta build to TestFlight"
   lane :beta do
     build_app(scheme: "DitMoi")
