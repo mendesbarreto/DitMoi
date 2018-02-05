@@ -23,7 +23,15 @@ platform :ios do
 
   desc "Push a new beta build to TestFlight"
   lane :beta do
-    build_app(scheme: "DitMoi")
-    upload_to_testflight
+    increment_build_number({
+      build_number: latest_testflight_build_number() + 1
+    })
+    build_app(scheme: "DitMoi", configuration: "Release")
+    upload_to_testflight(skip_submission: true, skip_waiting_for_build_processing: true)
+  end
+
+  desc "Testing DitMoi App"
+  lane :tests do
+    run_tests(scheme: "DitMoi")
   end
 end

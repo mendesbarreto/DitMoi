@@ -26,6 +26,11 @@ Subcribe devices on provision profile
 fastlane ios beta
 ```
 Push a new beta build to TestFlight
+### ios tests
+```
+fastlane ios tests
+```
+Testing DitMoi App
 
 ----
 
