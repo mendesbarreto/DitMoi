@@ -1,5 +1,5 @@
-# Project Status
-[![Build Status](https://www.bitrise.io/app/3e839f0c3a42f851/status.svg?token=UbHUAYKQA41WLcstqsbT7w&branch=develop)](https://www.bitrise.io/app/3e839f0c3a42f851)
+## Project Status
+[![Build Status](https://www.bitrise.io/app/3e839f0c3a42f851/status.svg?token=UbHUAYKQA41WLcstqsbT7w&branch=develop)](https://www.bitrise.io/app/3e839f0c3a42f851) [![codecov](https://codecov.io/gh/mendesbarreto/DitMoi/branch/master/graph/badge.svg)](https://codecov.io/gh/mendesbarreto/DitMoi)
 
 # DitMoi
 
