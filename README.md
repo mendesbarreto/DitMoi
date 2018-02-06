@@ -1,3 +1,6 @@
+# Project Status
+[![Build Status](https://www.bitrise.io/app/3e839f0c3a42f851/status.svg?token=UbHUAYKQA41WLcstqsbT7w&branch=develop)](https://www.bitrise.io/app/3e839f0c3a42f851)
+
 # DitMoi
 
 App to help you to get what you already know in french and bring it to your mouth as a native french speaker does.
