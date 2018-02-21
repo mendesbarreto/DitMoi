@@ -395,7 +395,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = WQVLGGBH98;
-				INFOPLIST_FILE = DitMoi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DitMoi/Resources/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.DitMoi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,7 +415,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = WQVLGGBH98;
-				INFOPLIST_FILE = DitMoi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DitMoi/Resources/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"MTL_ENABLE_DEBUG_INFO[arch=*]" = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.DitMoi;

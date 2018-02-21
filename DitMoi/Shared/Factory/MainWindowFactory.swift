@@ -9,6 +9,7 @@ final class MainWindowFactory {
     static func make() -> UIWindow {
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = RootViewControllerFactory.make()
+        window.makeKeyAndVisible()
         return window
     }
 }
