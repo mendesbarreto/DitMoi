@@ -22,7 +22,7 @@ class ViewControllerTests: XCTestCase {
     }
     
     func testHello() {
-        let viewControler = ViewController()
+        let viewControler = HomeViewController()
         XCTAssert(viewControler.hello())
     }
     
