@@ -5,12 +5,12 @@
 
 import UIKit
 
-final class BaseViewController: UIViewController {
+class BaseViewController: UIViewController {
     init() {
         super.init(nibName: nil, bundle: nil)
     }
 
     required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+        fatalError("this class can not be initialized for NSCoder arg")
     }
 }
