@@ -14,6 +14,7 @@
 		B4E3352F3DE78DE3F0F65A14 /* RootViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E33FAA413D7A8C967A003B /* RootViewControllerFactory.swift */; };
 		B4E336ADC59F45C97336043E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E334CF6BCC43A08916D96A /* AppDelegate.swift */; };
 		B4E33A987F93D837B9DFCF95 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E339BD901BE326F9659849 /* HomeViewController.swift */; };
+		B4E33E9CA4B85E00C5D54310 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E33FEE04620A2B263F8998 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B4E339BD901BE326F9659849 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B4E33F100E847B6CB267FC35 /* MainWindowFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowFactory.swift; sourceTree = "<group>"; };
 		B4E33FAA413D7A8C967A003B /* RootViewControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewControllerFactory.swift; sourceTree = "<group>"; };
+		B4E33FEE04620A2B263F8998 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				B4E334CF6BCC43A08916D96A /* AppDelegate.swift */,
 				B4E333DB0DBBDF3949898A8F /* Factory */,
+				B4E33FEE04620A2B263F8998 /* BaseViewController.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				B4E3352F3DE78DE3F0F65A14 /* RootViewControllerFactory.swift in Sources */,
 				B4E334D7A7493406FED6F57F /* MainWindowFactory.swift in Sources */,
 				B4E33A987F93D837B9DFCF95 /* HomeViewController.swift in Sources */,
+				B4E33E9CA4B85E00C5D54310 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
