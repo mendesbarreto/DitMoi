@@ -11,6 +11,7 @@ class BaseViewController: UIViewController {
     }
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError("this class can not be initialized for NSCoder arg")
+        print("this class can not be initialized for NSCoder arg")
+        return nil
     }
 }
