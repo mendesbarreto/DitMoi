@@ -9,10 +9,6 @@
 import UIKit
 
 final class HomeViewController: BaseViewController {
-    init(hello: String) {
-        super.init()
-    }
-
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
