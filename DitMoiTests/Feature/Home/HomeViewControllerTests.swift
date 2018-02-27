@@ -1,5 +1,5 @@
 //
-// Created by douglas.barreto on 2/26/18.
+// Created by douglas.barreto on 2/27/18.
 // Copyright (c) 2018 Douglas Mendes. All rights reserved.
 //
 
@@ -7,7 +7,7 @@ import XCTest
 
 @testable import DitMoi
 
-final class BaseViewControllerTests: XCTestCase {
+final class HomeViewControllerTests: XCTestCase {
     override func setUp() {
         super.setUp()
     }
