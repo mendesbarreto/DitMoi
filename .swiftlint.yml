@@ -1,0 +1,34 @@
+excluded:
+  - Pods
+  - Carthage
+  - ./Carthage/
+
+line_length:
+  warning: 300
+  error: 300
+
+private_outlet:
+  severity: warning
+
+mark:
+  severity: error
+
+vertical_whitespace:
+  severity: error
+
+type_name:
+  max_length: 60
+
+# function_body_length:
+#   error: 50
+
+# cyclomatic_complexity:
+#   warning: 7
+#   error: 10
+
+identifier_name:
+  excluded:
+    - id
+    - y
+    - x
+    - u
